@@ -6,6 +6,15 @@ A heavy metal-themed iOS calorie tracking app with AI-powered food recognition. 
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+<p>
+  <img src="https://github.com/user-attachments/assets/1f28d37d-e527-4ea4-beed-2e5622f6d62c" width="180" />
+  <img src="https://github.com/user-attachments/assets/1404140c-9969-4113-b9ad-c30a5b519286" width="180" />
+  <img src="https://github.com/user-attachments/assets/5402f96e-c8c6-4c1e-a1be-7a126e8d8a13" width="180" />
+  <img src="https://github.com/user-attachments/assets/eb0cdf52-32b7-45c7-a374-d57058baa5ad" width="180" />
+</p>
+
+
+
 ## Features
 
 ### Core Functionality
