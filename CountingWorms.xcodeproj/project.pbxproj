@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		25AAC1382F35804A002AD9F3 /* SETUP_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 25AAC1372F35804A002AD9F3 /* SETUP_GUIDE.md */; };
+		25AAC1402F3580F6002AD9F3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AAC13F2F3580F6002AD9F3 /* WidgetKit.framework */; };
+		25AAC1422F3580F6002AD9F3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AAC1412F3580F6002AD9F3 /* SwiftUI.framework */; };
+		25AAC1512F3580F8002AD9F3 /* CountingWormsWidget​ExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 25AAC13D2F3580F6002AD9F3 /* CountingWormsWidget​ExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25AAC15C2F3581E0002AD9F3 /* FINAL_SETUP_STEPS.md in Resources */ = {isa = PBXBuildFile; fileRef = 25AAC15B2F3581E0002AD9F3 /* FINAL_SETUP_STEPS.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		25AAC1012F357DCC002AD9F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +29,64 @@
 			remoteGlobalIDString = 25AAC0F22F357DC9002AD9F3;
 			remoteInfo = CountingWorms;
 		};
+		25AAC14F2F3580F8002AD9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25AAC0EB2F357DC9002AD9F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25AAC13C2F3580F6002AD9F3;
+			remoteInfo = "CountingWormsWidget​ExtensionExtension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25AAC1562F3580F8002AD9F3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				25AAC1512F3580F8002AD9F3 /* CountingWormsWidget​ExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		25AAC0F32F357DC9002AD9F3 /* CountingWorms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountingWorms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AAC1002F357DCC002AD9F3 /* CountingWormsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingWormsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AAC10A2F357DCC002AD9F3 /* CountingWormsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingWormsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25AAC1372F35804A002AD9F3 /* SETUP_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SETUP_GUIDE.md; sourceTree = "<group>"; };
+		25AAC13D2F3580F6002AD9F3 /* CountingWormsWidget​ExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CountingWormsWidget​ExtensionExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25AAC13F2F3580F6002AD9F3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		25AAC1412F3580F6002AD9F3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		25AAC15B2F3581E0002AD9F3 /* FINAL_SETUP_STEPS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FINAL_SETUP_STEPS.md; sourceTree = "<group>"; };
+		25AAC1602F3583F7002AD9F3 /* CountingWormsWidget​ExtensionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CountingWormsWidget​ExtensionExtension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		25AAC1522F3580F8002AD9F3 /* Exceptions for "CountingWormsWidget​Extension" folder in "CountingWormsWidget​ExtensionExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 25AAC13C2F3580F6002AD9F3 /* CountingWormsWidget​ExtensionExtension */;
+		};
+		25AAC15E2F35831E002AD9F3 /* Exceptions for "CountingWorms" folder in "CountingWorms" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 25AAC0F22F357DC9002AD9F3 /* CountingWorms */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		25AAC0F52F357DC9002AD9F3 /* CountingWorms */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				25AAC15E2F35831E002AD9F3 /* Exceptions for "CountingWorms" folder in "CountingWorms" target */,
+			);
 			path = CountingWorms;
 			sourceTree = "<group>";
 		};
@@ -43,6 +98,14 @@
 		25AAC10D2F357DCC002AD9F3 /* CountingWormsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CountingWormsUITests;
+			sourceTree = "<group>";
+		};
+		25AAC1432F3580F6002AD9F3 /* CountingWormsWidget​Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				25AAC1522F3580F8002AD9F3 /* Exceptions for "CountingWormsWidget​Extension" folder in "CountingWormsWidget​ExtensionExtension" target */,
+			);
+			path = "CountingWormsWidget​Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,16 +132,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25AAC13A2F3580F6002AD9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25AAC1422F3580F6002AD9F3 /* SwiftUI.framework in Frameworks */,
+				25AAC1402F3580F6002AD9F3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		25AAC0EA2F357DC9002AD9F3 = {
 			isa = PBXGroup;
 			children = (
+				25AAC1602F3583F7002AD9F3 /* CountingWormsWidget​ExtensionExtension.entitlements */,
 				25AAC0F52F357DC9002AD9F3 /* CountingWorms */,
 				25AAC1032F357DCC002AD9F3 /* CountingWormsTests */,
 				25AAC10D2F357DCC002AD9F3 /* CountingWormsUITests */,
+				25AAC1432F3580F6002AD9F3 /* CountingWormsWidget​Extension */,
+				25AAC13E2F3580F6002AD9F3 /* Frameworks */,
 				25AAC0F42F357DC9002AD9F3 /* Products */,
+				25AAC1372F35804A002AD9F3 /* SETUP_GUIDE.md */,
+				25AAC15B2F3581E0002AD9F3 /* FINAL_SETUP_STEPS.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +165,18 @@
 				25AAC0F32F357DC9002AD9F3 /* CountingWorms.app */,
 				25AAC1002F357DCC002AD9F3 /* CountingWormsTests.xctest */,
 				25AAC10A2F357DCC002AD9F3 /* CountingWormsUITests.xctest */,
+				25AAC13D2F3580F6002AD9F3 /* CountingWormsWidget​ExtensionExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		25AAC13E2F3580F6002AD9F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25AAC13F2F3580F6002AD9F3 /* WidgetKit.framework */,
+				25AAC1412F3580F6002AD9F3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +189,12 @@
 				25AAC0EF2F357DC9002AD9F3 /* Sources */,
 				25AAC0F02F357DC9002AD9F3 /* Frameworks */,
 				25AAC0F12F357DC9002AD9F3 /* Resources */,
+				25AAC1562F3580F8002AD9F3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				25AAC1502F3580F8002AD9F3 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				25AAC0F52F357DC9002AD9F3 /* CountingWorms */,
@@ -163,6 +252,28 @@
 			productReference = 25AAC10A2F357DCC002AD9F3 /* CountingWormsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		25AAC13C2F3580F6002AD9F3 /* CountingWormsWidget​ExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25AAC1532F3580F8002AD9F3 /* Build configuration list for PBXNativeTarget "CountingWormsWidget​ExtensionExtension" */;
+			buildPhases = (
+				25AAC1392F3580F6002AD9F3 /* Sources */,
+				25AAC13A2F3580F6002AD9F3 /* Frameworks */,
+				25AAC13B2F3580F6002AD9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				25AAC1432F3580F6002AD9F3 /* CountingWormsWidget​Extension */,
+			);
+			name = "CountingWormsWidget​ExtensionExtension";
+			packageProductDependencies = (
+			);
+			productName = "CountingWormsWidget​ExtensionExtension";
+			productReference = 25AAC13D2F3580F6002AD9F3 /* CountingWormsWidget​ExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +295,9 @@
 						CreatedOnToolsVersion = 26.3;
 						TestTargetID = 25AAC0F22F357DC9002AD9F3;
 					};
+					25AAC13C2F3580F6002AD9F3 = {
+						CreatedOnToolsVersion = 26.3;
+					};
 				};
 			};
 			buildConfigurationList = 25AAC0EE2F357DC9002AD9F3 /* Build configuration list for PBXProject "CountingWorms" */;
@@ -203,6 +317,7 @@
 				25AAC0F22F357DC9002AD9F3 /* CountingWorms */,
 				25AAC0FF2F357DCC002AD9F3 /* CountingWormsTests */,
 				25AAC1092F357DCC002AD9F3 /* CountingWormsUITests */,
+				25AAC13C2F3580F6002AD9F3 /* CountingWormsWidget​ExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +327,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25AAC15C2F3581E0002AD9F3 /* FINAL_SETUP_STEPS.md in Resources */,
+				25AAC1382F35804A002AD9F3 /* SETUP_GUIDE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +340,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		25AAC1082F357DCC002AD9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25AAC13B2F3580F6002AD9F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +377,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25AAC1392F3580F6002AD9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +396,11 @@
 			isa = PBXTargetDependency;
 			target = 25AAC0F22F357DC9002AD9F3 /* CountingWorms */;
 			targetProxy = 25AAC10B2F357DCC002AD9F3 /* PBXContainerItemProxy */;
+		};
+		25AAC1502F3580F8002AD9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25AAC13C2F3580F6002AD9F3 /* CountingWormsWidget​ExtensionExtension */;
+			targetProxy = 25AAC14F2F3580F8002AD9F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,11 +531,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CountingWorms/CountingWorms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MN8C3856QD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CountingWorms/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = Food;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -427,11 +566,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CountingWorms/CountingWorms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MN8C3856QD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CountingWorms/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = Food;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -538,6 +680,70 @@
 			};
 			name = Release;
 		};
+		25AAC1542F3580F8002AD9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "CountingWormsWidget​ExtensionExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN8C3856QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CountingWormsWidget​Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CountingWormsWidget​Extension";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to take photos of your food for calorie estimation\n";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bram.CountingWorms.CountingWormsWidget-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AAC1552F3580F8002AD9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "CountingWormsWidget​ExtensionExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MN8C3856QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CountingWormsWidget​Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CountingWormsWidget​Extension";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to take photos of your food for calorie estimation\n";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bram.CountingWorms.CountingWormsWidget-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,6 +779,15 @@
 			buildConfigurations = (
 				25AAC11B2F357DCC002AD9F3 /* Debug */,
 				25AAC11C2F357DCC002AD9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25AAC1532F3580F8002AD9F3 /* Build configuration list for PBXNativeTarget "CountingWormsWidget​ExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AAC1542F3580F8002AD9F3 /* Debug */,
+				25AAC1552F3580F8002AD9F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
