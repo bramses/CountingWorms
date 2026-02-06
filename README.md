@@ -2,6 +2,8 @@
 
 A heavy metal-themed iOS calorie tracking app with AI-powered food recognition. Named after the Knocked Loose song "Counting Worms."
 
+[*"The results have a reasonable level of accuracy, with energy values having the highest level of conformity: 97% of the artificial intelligence values fall within a 40% difference from United States Department of Agriculture data."*](https://www.sciencedirect.com/science/article/abs/pii/S0899900723003532)
+
 ![Platform](https://img.shields.io/badge/platform-iOS%2017.0%2B-blue)
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
